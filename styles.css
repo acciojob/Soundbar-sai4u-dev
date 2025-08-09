@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+  body {
+    background-color: #9b59b6; /* purple background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  #buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .btn, .stop {
+    background-color: #5e3370;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover, .stop:hover {
+    background-color: #4a2760;
+  }
